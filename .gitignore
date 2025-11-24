@@ -3,3 +3,4 @@ composer.lock
 token_*.txt
 .idea/
 .DS_Store
+openapi.json
