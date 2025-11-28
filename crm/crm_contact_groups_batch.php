@@ -7,9 +7,22 @@ $api = new Api("https://demo.contractors.es", "admin", "admin", "en");
 
 try {
     $endpoint = '/api/crm/contact-groups/batch';
-    // Create a batch of contact groups
+    $uniq = date('YmdHis');
+
+    // Create a pair of demo contact groups in one request
     $payload = [
-        // TODO: Provide request body (object)
+        'resources' => [
+            [
+                'name' => 'Sample Contact Group ' . $uniq,
+                'slug' => 'sample-contact-group-' . $uniq,
+                'filter' => 0,
+            ],
+            [
+                'name' => 'Sample Contact Group ' . $uniq . '-b',
+                'slug' => 'sample-contact-group-' . $uniq . '-b',
+                'filter' => 0,
+            ],
+        ],
     ];
 
     $response = $api->post($endpoint, $payload);

@@ -6,13 +6,17 @@ require_once __DIR__ . '/../api.php';
 $api = new Api("https://demo.contractors.es", "admin", "admin", "en");
 
 try {
+    $company = $api->first('/api/crm/companies');
+    if (!$company || !isset($company['id'])) {
+        throw new RuntimeException('Unable to resolve a company to fetch.');
+    }
+
     $endpoint = '/api/crm/companies/{company}';
     $endpoint = strtr($endpoint, [
-        '{company}' => 'REPLACE_COMPANY',
+        '{company}' => $company['id'],
     ]);
 
-    // Get company
-    // Query params: with_trashed, only_trashed
+    // Get company details (supports optional with_trashed/only_trashed query params)
     $response = $api->get($endpoint);
 
     $body = json_decode($response->getBody()->getContents(), true);

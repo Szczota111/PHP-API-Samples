@@ -8,7 +8,7 @@ $api = new Api("https://demo.contractors.es", "admin", "admin", "en");
 try {
     $endpoint = '/api/countries/{country}/states/associate';
     $endpoint = strtr($endpoint, [
-        '{country}' => '1php',
+        '{country}' => '1',
     ]);
 
     // Associate state with country

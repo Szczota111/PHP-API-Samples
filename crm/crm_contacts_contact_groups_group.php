@@ -6,14 +6,33 @@ require_once __DIR__ . '/../api.php';
 $api = new Api("https://demo.contractors.es", "admin", "admin", "en");
 
 try {
+    $contact = $api->first('/api/crm/contacts');
+    if (!$contact || !isset($contact['id'])) {
+        throw new RuntimeException('Unable to resolve a contact for group lookup.');
+    }
+
+    $attachedGroups = $api->getAll("/api/crm/contacts/{$contact['id']}/groups?limit=5");
+    if (empty($attachedGroups)) {
+        $availableGroups = $api->getAll('/api/crm/contact-groups?limit=5');
+        $groupIds = array_column($availableGroups ?? [], 'id');
+        if (empty($groupIds)) {
+            throw new RuntimeException('No contact groups available to attach.');
+        }
+        $api->post("/api/crm/contacts/{$contact['id']}/groups/attach", [
+            'resources' => array_slice($groupIds, 0, 2),
+        ]);
+        $attachedGroups = $api->getAll("/api/crm/contacts/{$contact['id']}/groups?limit=5");
+    }
+
+    $groupId = $attachedGroups[0]['id'];
+
     $endpoint = '/api/crm/contacts/{contact}/groups/{group}';
     $endpoint = strtr($endpoint, [
-        '{contact}' => 'REPLACE_CONTACT',
-        '{group}' => 'REPLACE_GROUP',
+        '{contact}' => $contact['id'],
+        '{group}' => $groupId,
     ]);
 
-    // Get contact group
-    // Query params: with_trashed, only_trashed
+    // Get contact group details (supports with_trashed/only_trashed query params)
     $response = $api->get($endpoint);
 
     $body = json_decode($response->getBody()->getContents(), true);

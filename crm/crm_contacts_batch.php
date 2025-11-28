@@ -6,10 +6,28 @@ require_once __DIR__ . '/../api.php';
 $api = new Api("https://demo.contractors.es", "admin", "admin", "en");
 
 try {
+    $company = $api->first('/api/crm/companies');
+    $companyId = $company['id'] ?? null;
+
     $endpoint = '/api/crm/contacts/batch';
-    // Create a batch of contacts
+    $uniq = date('YmdHis');
+
+    // Create two contacts in a single request
     $payload = [
-        // TODO: Provide request body (object)
+        'resources' => [
+            [
+                'last_name' => 'Batch-' . $uniq,
+                'first_name' => 'ContactA',
+                'email' => 'batch-a-' . $uniq . '@example.com',
+                'company_id' => $companyId,
+            ],
+            [
+                'last_name' => 'Batch-' . $uniq,
+                'first_name' => 'ContactB',
+                'email' => 'batch-b-' . $uniq . '@example.com',
+                'company_id' => $companyId,
+            ],
+        ],
     ];
 
     $response = $api->post($endpoint, $payload);

@@ -7,9 +7,31 @@ $api = new Api("https://demo.contractors.es", "admin", "admin", "en");
 
 try {
     $endpoint = '/api/crm/meeting-locations/batch';
-    // Create a batch of meeting locations
+    // Create a batch of meeting locations using different "start" date formats
+    $baseName = 'Meeting Location ' . date('YmdHis');
     $payload = [
-        // TODO: Provide request body (object)
+        'resources' => [
+            [
+                'name' => $baseName . ' A',
+                'active' => 1,
+                'start' => '2020-05-20 13:00:00',
+            ],
+            [
+                'name' => $baseName . ' B',
+                'active' => 1,
+                'start' => '2020-05-20 13:00',
+            ],
+            [
+                'name' => $baseName . ' C',
+                'active' => 1,
+                'start' => '2020-05-20 05:00 AM',
+            ],
+            [
+                'name' => $baseName . ' D',
+                'active' => 1,
+                'start' => '2020-05-20T11:00+01:00',
+            ],
+        ],
     ];
 
     $response = $api->post($endpoint, $payload);

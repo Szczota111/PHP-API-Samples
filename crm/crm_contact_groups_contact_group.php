@@ -6,13 +6,27 @@ require_once __DIR__ . '/../api.php';
 $api = new Api("https://demo.contractors.es", "admin", "admin", "en");
 
 try {
+    $contactGroup = $api->first('/api/crm/contact-groups');
+
+    if (!$contactGroup || !isset($contactGroup['id'])) {
+        $uniq = date('YmdHis');
+        $contactGroup = $api->create('/api/crm/contact-groups', [
+            'name' => 'Sample Contact Group ' . $uniq,
+            'slug' => 'sample-contact-group-' . $uniq,
+            'filter' => 0,
+        ]);
+    }
+
+    if (!$contactGroup || !isset($contactGroup['id'])) {
+        throw new RuntimeException('Unable to resolve a contact group to fetch.');
+    }
+
     $endpoint = '/api/crm/contact-groups/{contact_group}';
     $endpoint = strtr($endpoint, [
-        '{contact_group}' => 'REPLACE_CONTACT_GROUP',
+        '{contact_group}' => $contactGroup['id'],
     ]);
 
-    // Get contact group
-    // Query params: with_trashed, only_trashed
+    // Get contact group (with optional with_trashed / only_trashed)
     $response = $api->get($endpoint);
 
     $body = json_decode($response->getBody()->getContents(), true);

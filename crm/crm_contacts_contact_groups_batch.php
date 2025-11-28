@@ -6,14 +6,32 @@ require_once __DIR__ . '/../api.php';
 $api = new Api("https://demo.contractors.es", "admin", "admin", "en");
 
 try {
+    $contact = $api->first('/api/crm/contacts');
+    if (!$contact || !isset($contact['id'])) {
+        throw new RuntimeException('Unable to resolve a contact for group batch creation.');
+    }
+
     $endpoint = '/api/crm/contacts/{contact}/groups/batch';
     $endpoint = strtr($endpoint, [
-        '{contact}' => 'REPLACE_CONTACT',
+        '{contact}' => $contact['id'],
     ]);
 
-    // Create a batch of contact groups
+    $uniq = date('YmdHis');
+
+    // Create and attach multiple groups to the contact in one request
     $payload = [
-        // TODO: Provide request body (object)
+        'resources' => [
+            [
+                'name' => 'Contact Batch Group ' . $uniq,
+                'slug' => 'contact-batch-group-' . $uniq,
+                'filter' => 0,
+            ],
+            [
+                'name' => 'Contact Batch Group ' . $uniq . '-b',
+                'slug' => 'contact-batch-group-' . $uniq . '-b',
+                'filter' => 0,
+            ],
+        ],
     ];
 
     $response = $api->post($endpoint, $payload);

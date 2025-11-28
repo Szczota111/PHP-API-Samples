@@ -11,9 +11,16 @@ try {
         '{country}' => '1',
     ]);
 
-    // Search for states
+    // Search for states named "zabul"
     $payload = [
-        // TODO: Provide request body (object)
+        'filters' => [
+            [
+                'type' => 'and',
+                'field' => 'name',
+                'operator' => 'like',
+                'value' => '%zabul%',
+            ],
+        ],
     ];
 
     $response = $api->post($endpoint, $payload);

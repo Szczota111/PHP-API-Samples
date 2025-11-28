@@ -1,0 +1,602 @@
+[
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\api.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\test_change_orders.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\test_change_order_stage_update.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\test_country_capitals.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\test_getall.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\test_invoices.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\test_meetings.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\test_phonecalls.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\test_polish_states.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\test_projects_summary.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\test_project_contract_contacts.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\test_project_relations.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\test_project_stages.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\test_project_stages_relation.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\test_search.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\test_subcontractors_agreements.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\test_tasks.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\test_webhooks.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\tmp_countries_include.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\webhook_endpoint.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_batch.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_batch_restore.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_company.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_company_groups.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_company_groups_attach.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_company_groups_batch.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_company_groups_detach.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_company_groups_group.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_company_groups_group_pivot.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_company_groups_search.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_company_groups_sync.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_company_groups_toggle.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_company_restore.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_company_salesRepresentatives.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_company_salesRepresentatives_attach.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_company_salesRepresentatives_detach.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_company_salesRepresentatives_salesRepresentative.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_company_salesRepresentatives_search.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_company_salesRepresentatives_sync.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_company_salesRepresentatives_toggle.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_search.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_webhooks.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_webhooks_search.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_companies_webhooks_webhook.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_company_groups.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_company_groups_batch.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_company_groups_batch_restore.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_company_groups_company_group.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_company_groups_company_group_restore.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_company_groups_search.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_batch.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_batch_restore.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_contact.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_contact_groups.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_contact_groups_attach.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_contact_groups_batch.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_contact_groups_detach.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_contact_groups_group.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_contact_groups_group_pivot.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_contact_groups_search.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_contact_groups_sync.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_contact_groups_toggle.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_contact_restore.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_contact_salesRepresentatives.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_contact_salesRepresentatives_attach.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_contact_salesRepresentatives_detach.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_contact_salesRepresentatives_salesRepresentative.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_contact_salesRepresentatives_search.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_contact_salesRepresentatives_sync.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_contact_salesRepresentatives_toggle.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_search.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_webhooks.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_webhooks_search.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contacts_webhooks_webhook.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contact_groups.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contact_groups_batch.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contact_groups_batch_restore.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contact_groups_contact_group.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contact_groups_contact_group_restore.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_contact_groups_search.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings_batch.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings_batch_restore.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings_meeting.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings_meeting_customers.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings_meeting_customers_attach.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings_meeting_customers_customer.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings_meeting_customers_detach.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings_meeting_customers_search.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings_meeting_customers_sync.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings_meeting_customers_toggle.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings_meeting_employees.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings_meeting_employees_attach.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings_meeting_employees_detach.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings_meeting_employees_employee.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings_meeting_employees_search.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings_meeting_employees_sync.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings_meeting_employees_toggle.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings_meeting_restore.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings_search.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings_webhooks.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings_webhooks_search.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meetings_webhooks_webhook.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meeting_locations.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meeting_locations_batch.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meeting_locations_batch_restore.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meeting_locations_meeting_location.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meeting_locations_meeting_location_restore.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_meeting_locations_search.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_phonecalls.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_phonecalls_batch.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_phonecalls_batch_restore.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_phonecalls_phonecall.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_phonecalls_phonecall_employees.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_phonecalls_phonecall_employees_attach.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_phonecalls_phonecall_employees_detach.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_phonecalls_phonecall_employees_employee.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_phonecalls_phonecall_employees_search.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_phonecalls_phonecall_employees_sync.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_phonecalls_phonecall_employees_toggle.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_phonecalls_phonecall_restore.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_phonecalls_search.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_phonecalls_webhooks.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_phonecalls_webhooks_search.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_phonecalls_webhooks_webhook.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks_batch.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks_batch_restore.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks_search.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks_task.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks_task_customers.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks_task_customers_attach.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks_task_customers_customer.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks_task_customers_detach.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks_task_customers_search.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks_task_customers_sync.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks_task_customers_toggle.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks_task_employees.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks_task_employees_attach.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks_task_employees_detach.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks_task_employees_employee.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks_task_employees_search.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks_task_employees_sync.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks_task_employees_toggle.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks_task_restore.php",
+        "ExitCode":  1
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks_webhooks.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks_webhooks_search.php",
+        "ExitCode":  0
+    },
+    {
+        "File":  "C:\\Users\\PC\\Desktop\\praktyki\\PHP-API-Samples\\crm\\crm_tasks_webhooks_webhook.php",
+        "ExitCode":  1
+    }
+]

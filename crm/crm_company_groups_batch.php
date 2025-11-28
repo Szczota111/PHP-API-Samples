@@ -7,9 +7,20 @@ $api = new Api("https://demo.contractors.es", "admin", "admin", "en");
 
 try {
     $endpoint = '/api/crm/company-groups/batch';
-    // Create a batch of company groups
+    $uniq = date('YmdHis');
+
+    // Create two demo company groups in a single request
     $payload = [
-        // TODO: Provide request body (object)
+        'resources' => [
+            [
+                'name' => 'Sample Company Group ' . $uniq,
+                'slug' => 'sample-company-group-' . $uniq,
+            ],
+            [
+                'name' => 'Sample Company Group ' . $uniq . '-b',
+                'slug' => 'sample-company-group-' . $uniq . '-b',
+            ],
+        ],
     ];
 
     $response = $api->post($endpoint, $payload);

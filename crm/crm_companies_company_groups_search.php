@@ -6,15 +6,19 @@ require_once __DIR__ . '/../api.php';
 $api = new Api("https://demo.contractors.es", "admin", "admin", "en");
 
 try {
+    $company = $api->first('/api/crm/companies');
+    if (!$company || !isset($company['id'])) {
+        throw new RuntimeException('Unable to resolve a company for group search.');
+    }
+
     $endpoint = '/api/crm/companies/{company}/groups/search';
     $endpoint = strtr($endpoint, [
-        '{company}' => 'REPLACE_COMPANY',
+        '{company}' => $company['id'],
     ]);
 
-    // Search for company groups
-    // Query params: with_trashed, only_trashed
+    // Search endpoint without filters/sort (API restricts whitelist)
     $payload = [
-        // TODO: Provide request body
+        'limit' => 10,
     ];
 
     $response = $api->post($endpoint, $payload);
